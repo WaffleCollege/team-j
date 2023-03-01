@@ -6,7 +6,10 @@ const userRouter = require("./routes/user")
 const PORT = 3000;
 
  app.use(express.static("public"));
+ //publicというフォルダのなかで作成
 //app.set("view engine" , "ejs" );
+//テンプレートエンジン：DBで用意したものを表示
+//とりあえず何もしない
 
 app.get('/', (req, res) => {
   // console.log("Hello");
@@ -17,6 +20,7 @@ app.get('/', (req, res) => {
 });
 
 //ルーティング
+//ここでユーザーに関して管理
 app.use("/user", userRouter);
 
 //ミドルウェア

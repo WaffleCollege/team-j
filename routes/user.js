@@ -15,3 +15,4 @@ router.get('/:id', (req, res) => {
 //":"とすることで、ランダムな数字を返す
 
 module.exports = router;
+//routerをどこでも使えるようにする
