@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/WaffleCollege/team-j#readme",
   "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.11.6",
     "ejs": "^3.1.8",
     "express": "^4.18.2",
     "nodemon": "^2.0.20"
