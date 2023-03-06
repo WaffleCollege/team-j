@@ -1,6 +1,10 @@
 const express = require("express");
 const router = express.Router()
 
+//user.jsは、
+//ルーティング（このページにたどり着くにはURLの最後がこうなるべき）を設定するときに、すべて最後が「/user/○○」となるから、「/user/」の部分をまとめて管理するためのファイルです。
+
+
 router.get('/', (req, res) => {
   res.send("ユーザーです");
 });
