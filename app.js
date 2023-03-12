@@ -7,6 +7,8 @@ const PORT = 3000;
 
  app.use(express.static("public"));
  //publicというフォルダのなかで作成
+ 
+ app.use(express.static("public2"))
 
 //app.set("view engine" , "ejs" );
 //テンプレートエンジン：DBで用意したものを表示
